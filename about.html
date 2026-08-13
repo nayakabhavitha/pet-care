@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us - BHAVITHA PAWCARE</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5fbff;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #159a9c;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+            font-size: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffe082;
+        }
+
+        /* About Section */
+        .about {
+            min-height: 85vh;
+            padding: 70px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+        }
+
+        .about-text {
+            width: 50%;
+        }
+
+        .about-text h1 {
+            color: #159a9c;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .about-text h3 {
+            color: #444;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .about-text p {
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .about-image {
+            width: 45%;
+            text-align: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 500px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 13px 25px;
+            background: #159a9c;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background: #107477;
+        }
+
+        /* Footer */
+        footer {
+            background: #159a9c;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+                padding-top: 40px;
+            }
+
+            .about-text,
+            .about-image {
+                width: 100%;
+            }
+
+            .about-text h1 {
+                font-size: 32px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>🐾 BHAVITHA PAWCARE</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="doctor.html">Doctors</a>
+            <a href="appointment.html">Appointment</a>
+                    </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <div class="about-text">
+            <h1>About Bhavitha PawCare</h1>
+
+            <h3>🐶 Caring for Pets, Creating Healthy Lives</h3>
+
+            <p>
+                Welcome to <b>Bhavitha PawCare</b>, a friendly veterinary
+                clinic dedicated to providing quality healthcare for pets.
+            </p>
+
+            <p>
+                Our clinic provides professional veterinary care,
+                regular health checkups, vaccinations, treatments,
+                grooming guidance and emergency support for your beloved pets.
+            </p>
+
+            <p>
+                We believe every pet deserves love, care and a healthy life.
+                Our goal is to make every visit comfortable for both pets
+                and their owners.
+            </p>
+
+                        </a>
+        </div>
+
+        <!-- PawCare Photo -->
+        <div class="about-image">
+            <img src="images/image1.jpg.jpeg">
+                 
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 BHAVITHA PAWCARE| Pet Care & Veterinary Clinic</p>
+    </footer>
+
+</body>
+</html>
+

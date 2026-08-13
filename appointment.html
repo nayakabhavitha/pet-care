@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawCare - Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">🐾BHAVITHA PAWCARE</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <div class="title">
+        <h2>Book an Appointment 📅</h2>
+        <p>Schedule a visit for your furry friend</p>
+    </div>
+
+    <div class="appointment">
+
+        <form id="appointmentForm">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   placeholder="Email Address"
+                   required>
+
+            <input type="tel"
+                   placeholder="Phone Number"
+                   required>
+
+            <input type="text"
+                   placeholder="Pet Name"
+                   required>
+
+            <select required>
+                <option value="">Select Pet Type</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Bird</option>
+                <option>Rabbit</option>
+                <option>Other</option>
+            </select>
+
+            <input type="date" required>
+
+            <textarea
+                placeholder="Describe your pet's problem...">
+            </textarea>
+
+            <button class="btn" type="submit">
+                Book Appointment
+            </button>
+
+            <div id="message"></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 BHAVITHA PAWCARE Veterinary Clinic</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
